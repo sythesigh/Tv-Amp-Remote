@@ -1,0 +1,416 @@
+type: vertical-stack
+cards:
+  - type: horizontal-stack
+    cards:
+      - type: custom:gap-card
+        size: 10
+        height: 10
+      - type: custom:gap-card
+        size: 10
+        height: 10
+      - type: custom:gap-card
+        height: 10
+        size: 10
+      - type: custom:gap-card
+        height: 10
+        size: 10
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.tv_off
+        icon: mdi:power
+        show_state: false
+        theme: minimalist-desktop
+        icon_height: 30px
+  - type: horizontal-stack
+    cards:
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.tv_1
+        icon: mdi:numeric-1-box
+        icon_height: 30px
+        theme: minimalist-desktop
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.tv_2
+        icon: mdi:numeric-2-box
+        icon_height: 30px
+        theme: minimalist-desktop
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.tv_3
+        icon: mdi:numeric-3-box
+        icon_height: 30px
+        theme: minimalist-desktop
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.tv_4
+        icon: mdi:numeric-4-box
+        icon_height: 30px
+        theme: minimalist-desktop
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.tv_5
+        icon: mdi:numeric-5-box
+        icon_height: 30px
+        theme: minimalist-desktop
+  - type: horizontal-stack
+    cards:
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.tv_6
+        icon: mdi:numeric-6-box
+        icon_height: 30px
+        theme: minimalist-desktop
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.tv_7
+        icon: mdi:numeric-7-box
+        icon_height: 30px
+        theme: minimalist-desktop
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.tv_8
+        icon: mdi:numeric-8-box
+        icon_height: 30px
+        theme: minimalist-desktop
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.tv_9
+        icon: mdi:numeric-9-box
+        icon_height: 30px
+        theme: minimalist-desktop
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.tv_0
+        icon: mdi:numeric-0-box
+        icon_height: 30px
+        theme: minimalist-desktop
+  - type: horizontal-stack
+    cards:
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.turn_the_radio_on
+        icon: mdi:radio
+        icon_height: 30px
+        hold_action:
+          action: none
+        theme: minimalist-desktop
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.turn_it_up
+        icon: mdi:volume-plus
+        show_state: false
+        icon_height: 30px
+        hold_action:
+          action: none
+        theme: minimalist-desktop
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.up
+        icon: mdi:arrow-up-bold
+        show_state: false
+        hold_action:
+          action: none
+        icon_height: 30px
+        theme: minimalist-desktop
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.audio_volume_down
+        icon: mdi:volume-minus
+        show_state: false
+        icon_height: 30px
+        theme: minimalist-desktop
+      - show_name: false
+        show_icon: true
+        type: button
+        entity: scene.youtube
+        icon: mdi:youtube-tv
+        hold_action:
+          action: none
+        icon_height: 30px
+        tap_action:
+          action: toggle
+        theme: minimalist-desktop
+  - type: horizontal-stack
+    cards:
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.back
+        icon: mdi:backspace
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.tv_navigate_left
+        icon: mdi:arrow-left-bold
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.tv_ok
+        icon: mdi:hand-okay
+        show_state: false
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.tv_navigate_right
+        icon: mdi:arrow-right-bold
+        show_state: false
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.guide
+        icon: mdi:television-guide
+        icon_height: 30px
+        theme: minimalist-desktop
+  - type: horizontal-stack
+    cards:
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.netflix
+        icon: mdi:netflix
+        icon_height: 30px
+        theme: minimalist-desktop
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.tv_channel_up
+        icon: mdi:plus-box
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.down
+        icon: mdi:arrow-down-bold
+        icon_height: 30px
+        theme: minimalist-desktop
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.tv_channel_down
+        icon: mdi:minus-box
+        show_state: false
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.tv_mute
+        icon: mdi:volume-mute
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
+type: vertical-stack
+cards:
+  - type: horizontal-stack
+    cards:
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.audio_off
+        icon: mdi:power-standby
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.audio_hdmi1
+        icon: mdi:video-input-hdmi
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.audio_hdmi2
+        icon: mdi:video-input-hdmi
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.audio_hdmi3
+        icon: mdi:video-input-hdmi
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.audio_hdmi4
+        icon: mdi:video-input-hdmi
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
+  - type: horizontal-stack
+    cards:
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.audio_av1
+        icon: mdi:audio-input-stereo-minijack
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.audio_av2
+        icon: mdi:audio-input-rca
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.audio_av3
+        icon: mdi:audio-video
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.audio_av4
+        icon: mdi:surround-sound
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.audio_mute
+        icon: mdi:volume-off
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
+      - show_name: false
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: scene.audio_sleep
+        icon: mdi:sleep
+        icon_height: 30px
+        theme: minimalist-desktop
+        hold_action:
+          action: none
